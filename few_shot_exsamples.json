@@ -1,0 +1,1594 @@
+[
+  {
+    "pmid": "PMID_1",
+    "abstract": "Melanoma lines MEL.A and MEL.B were derived from metastases removed from patient LB33 in 1988 and 1993, respectively. The MEL.A cells express several antigens recognized by autologous cytolytic T lymphocytes (CTL) on HLA class I molecules. The MEL.B cells have lost expression of all class I molecules except for HLA-A24. By stimulating autologous lymphocytes with MEL.B, we obtained an HLA-A24-restricted CTL clone that lysed these cells. A novel gene, PRAME, encodes the antigen. It is expressed in a large proportion of tumors and also in some normal tissues, albeit at a lower level. Surprisingly, the CTL failed to lyse MEL.A, even though these cells expressed the gene PRAME. The CTL expresses an NK inhibitory receptor that inhibits its lytic activity upon interaction with HLA-Cw7 molecules, which are present on MEL.A cells and not on MEL.B. Such CTL, active against tumor cells showing partial HLA loss, may constitute an intermediate line of anti-tumor defense between the CTL, which recognize highly specific tumor antigens, and the NK cells, which recognize HLA loss variants.",
+    "claims": [
+      {
+        "id": "C1",
+        "text": "PRAME encodes an antigen recognized by HLA-A24-restricted cytolytic T lymphocytes.",
+        "claim_type": "immune_recognition",
+        "subject": "PRAME",
+        "predicate": "encodes",
+        "object": "antigen recognized by HLA-A24-restricted cytolytic T lymphocytes",
+        "context": {
+          "disease": ["melanoma"],
+          "cell_line": ["MEL.B"],
+          "tissue": [],
+          "species": ["human"]
+        },
+        "evidence_source": "experimental",
+        "certainty": "observed",
+        "polarity": "positive",
+        "molecular_entities": ["PRAME", "HLA-A24", "HLA-Cw7"]
+      },
+      {
+        "id": "C2",
+        "text": "PRAME is expressed in a large proportion of tumors.",
+        "claim_type": "expression",
+        "subject": "PRAME",
+        "predicate": "is expressed in",
+        "object": "tumors",
+        "context": {
+          "disease": ["cancer"],
+          "cell_line": [],
+          "tissue": [],
+          "species": ["human"]
+        },
+        "evidence_source": "experimental",
+        "certainty": "observed",
+        "polarity": "positive",
+        "molecular_entities": ["PRAME"]
+      },
+      {
+        "id": "C3",
+        "text": "PRAME is expressed in some normal tissues at lower levels.",
+        "claim_type": "expression",
+        "subject": "PRAME",
+        "predicate": "is expressed in",
+        "object": "normal tissues",
+        "context": {
+          "disease": [],
+          "cell_line": [],
+          "tissue": ["normal tissue"],
+          "species": ["human"]
+        },
+        "evidence_source": "experimental",
+        "certainty": "observed",
+        "polarity": "positive",
+        "molecular_entities": ["PRAME"]
+      },
+      {
+        "id": "C4",
+        "text": "PRAME-expressing MEL.A melanoma cells were not lysed by cytolytic T lymphocytes.",
+        "claim_type": "immune_recognition",
+        "subject": "cytolytic T lymphocytes",
+        "predicate": "did not lyse",
+        "object": "PRAME-expressing MEL.A melanoma cells",
+        "context": {
+          "disease": ["melanoma"],
+          "cell_line": ["MEL.A"],
+          "tissue": [],
+          "species": ["human"]
+        },
+        "evidence_source": "experimental",
+        "certainty": "observed",
+        "polarity": "negative",
+        "molecular_entities": ["PRAME", "HLA-Cw7"]
+      },
+      {
+        "id": "C5",
+        "text": "HLA-Cw7 inhibited lytic activity of cytolytic T lymphocytes against PRAME-expressing melanoma cells.",
+        "claim_type": "regulation",
+        "subject": "HLA-Cw7",
+        "predicate": "inhibited",
+        "object": "lytic activity of cytolytic T lymphocytes",
+        "context": {
+          "disease": ["melanoma"],
+          "cell_line": ["MEL.A"],
+          "tissue": [],
+          "species": ["human"]
+        },
+        "evidence_source": "experimental",
+        "certainty": "observed",
+        "polarity": "positive",
+        "molecular_entities": ["PRAME", "HLA-Cw7", "HLA-A24"]
+      }
+    ]
+  },
+  {
+    "pmid": "PMID_2",
+    "abstract": "In order to elucidate molecular events in BCR/ABL-induced transformation, we adopted a polymerase chain reaction (PCR)-based technique of differential display and compared mRNA expression in human factor-dependent cells, TF-1, with that in factor-independent cells, ID-1, which were established from TF-1 cells by transfection of BCR/ABL. Cloning and sequencing of a gene which was upregulated in ID-1 cells revealed that the gene was identical to a melanoma antigen, PRAME. Our present study demonstrated that PRAME was markedly expressed in primary leukemic cells with chronic myeloid leukemia (CML) in blastic crisis and Philadelphia (Ph)+-acute lymphoblastic leukemia (ALL), in which BCR/ABL played an important role as a pathogenic gene. Moreover, comparison of PRAME expression among CD34+ cells with CML in blastic, accelerated, and chronic phases revealed a higher expression in CML in advanced phases. Thus PRAME was considered to be a good candidate for a marker of Ph+-leukemic blast cells as well as a new target antigen of leukemic blast cells that cytotoxic T cells can recognize.",
+    "claims": [
+      {
+        "id": "C1",
+        "text": "BCR/ABL transformation was associated with increased PRAME expression in ID-1 cells.",
+        "claim_type": "regulation",
+        "subject": "BCR/ABL",
+        "predicate": "was associated with increased expression of",
+        "object": "PRAME",
+        "context": {
+          "disease": [],
+          "cell_line": ["TF-1", "ID-1"],
+          "tissue": [],
+          "species": ["human"]
+        },
+        "evidence_source": "experimental",
+        "certainty": "observed",
+        "polarity": "positive",
+        "molecular_entities": ["PRAME", "BCR/ABL"]
+      },
+      {
+        "id": "C2",
+        "text": "PRAME was highly expressed in chronic myeloid leukemia during blastic crisis.",
+        "claim_type": "expression",
+        "subject": "PRAME",
+        "predicate": "was highly expressed in",
+        "object": "chronic myeloid leukemia during blastic crisis",
+        "context": {
+          "disease": ["chronic myeloid leukemia"],
+          "cell_line": [],
+          "tissue": [],
+          "species": ["human"]
+        },
+        "evidence_source": "clinical",
+        "certainty": "observed",
+        "polarity": "positive",
+        "molecular_entities": ["PRAME", "BCR/ABL"]
+      },
+      {
+        "id": "C3",
+        "text": "PRAME was highly expressed in Philadelphia chromosome-positive acute lymphoblastic leukemia.",
+        "claim_type": "expression",
+        "subject": "PRAME",
+        "predicate": "was highly expressed in",
+        "object": "Philadelphia chromosome-positive acute lymphoblastic leukemia",
+        "context": {
+          "disease": ["Philadelphia chromosome-positive acute lymphoblastic leukemia"],
+          "cell_line": [],
+          "tissue": [],
+          "species": ["human"]
+        },
+        "evidence_source": "clinical",
+        "certainty": "observed",
+        "polarity": "positive",
+        "molecular_entities": ["PRAME", "BCR/ABL"]
+      },
+      {
+        "id": "C4",
+        "text": "PRAME expression was higher in advanced phases of chronic myeloid leukemia than in chronic phase disease.",
+        "claim_type": "differential_expression",
+        "subject": "PRAME",
+        "predicate": "was higher in",
+        "object": "advanced phases of chronic myeloid leukemia",
+        "context": {
+          "disease": ["chronic myeloid leukemia"],
+          "cell_line": [],
+          "tissue": [],
+          "species": ["human"]
+        },
+        "evidence_source": "clinical",
+        "certainty": "observed",
+        "polarity": "positive",
+        "molecular_entities": ["PRAME"]
+      },
+      {
+        "id": "C5",
+        "text": "PRAME was proposed as a marker of Philadelphia chromosome-positive leukemic blast cells.",
+        "claim_type": "diagnostic_marker",
+        "subject": "PRAME",
+        "predicate": "was proposed as",
+        "object": "marker of Philadelphia chromosome-positive leukemic blast cells",
+        "context": {
+          "disease": [
+            "chronic myeloid leukemia",
+            "Philadelphia chromosome-positive acute lymphoblastic leukemia"
+          ],
+          "cell_line": [],
+          "tissue": [],
+          "species": ["human"]
+        },
+        "evidence_source": "clinical",
+        "certainty": "proposed",
+        "polarity": "positive",
+        "molecular_entities": ["PRAME"]
+      },
+      {
+        "id": "C6",
+        "text": "PRAME was proposed as a target antigen for cytotoxic T cells in leukemic blast cells.",
+        "claim_type": "therapeutic_target",
+        "subject": "PRAME",
+        "predicate": "was proposed as",
+        "object": "target antigen for cytotoxic T cells",
+        "context": {
+          "disease": [
+            "chronic myeloid leukemia",
+            "acute lymphoblastic leukemia"
+          ],
+          "cell_line": [],
+          "tissue": [],
+          "species": ["human"]
+        },
+        "evidence_source": "clinical",
+        "certainty": "proposed",
+        "polarity": "positive",
+        "molecular_entities": ["PRAME"]
+      }
+    ]
+  },
+  {
+    "pmid": "PMID_3",
+    "abstract": "PRAME is a tumor associated antigen (TAA) of particular interest since it is widely expressed by lymphoid and myeloid malignancies. Several studies have associated high PRAME RNA levels with good prognosis in acute myeloid leukemia (AML). PRAME expression is regulated at the epigenetic level. For this reason inhibitors of DNA methylation, such as 5-azacytidine, can modulate the expression of this TAAs. In the current study we analyzed the effect of 5-azaC on the expression of PRAME in blasts versus CD34+ cells from healthy donors in an attempt to increase its expression, thus inducing a potential target for therapeutic strategies.",
+    "claims": [
+      {
+        "id": "C1",
+        "text": "PRAME is widely expressed in lymphoid and myeloid malignancies.",
+        "claim_type": "expression",
+        "subject": "PRAME",
+        "predicate": "is widely expressed in",
+        "object": "lymphoid and myeloid malignancies",
+        "context": {
+          "disease": [
+            "lymphoid malignancies",
+            "myeloid malignancies"
+          ],
+          "cell_line": [],
+          "tissue": [],
+          "species": ["human"]
+        },
+        "evidence_source": "review",
+        "certainty": "observed",
+        "polarity": "positive",
+        "molecular_entities": ["PRAME"]
+      },
+      {
+        "id": "C2",
+        "text": "High PRAME RNA levels were associated with good prognosis in acute myeloid leukemia.",
+        "claim_type": "prognostic_association",
+        "subject": "high PRAME RNA levels",
+        "predicate": "were associated with",
+        "object": "good prognosis",
+        "context": {
+          "disease": ["acute myeloid leukemia"],
+          "cell_line": [],
+          "tissue": [],
+          "species": ["human"]
+        },
+        "evidence_source": "clinical",
+        "certainty": "observed",
+        "polarity": "positive",
+        "molecular_entities": ["PRAME"]
+      },
+      {
+        "id": "C3",
+        "text": "PRAME expression is regulated at the epigenetic level.",
+        "claim_type": "epigenetic_regulation",
+        "subject": "epigenetic mechanisms",
+        "predicate": "regulate",
+        "object": "PRAME expression",
+        "context": {
+          "disease": [],
+          "cell_line": [],
+          "tissue": [],
+          "species": ["human"]
+        },
+        "evidence_source": "review",
+        "certainty": "observed",
+        "polarity": "positive",
+        "molecular_entities": ["PRAME", "DNA methylation"]
+      },
+      {
+        "id": "C4",
+        "text": "5-azacytidine can modulate PRAME expression.",
+        "claim_type": "drug_response",
+        "subject": "5-azacytidine",
+        "predicate": "can modulate",
+        "object": "PRAME expression",
+        "context": {
+          "disease": [],
+          "cell_line": [],
+          "tissue": [],
+          "species": ["human"]
+        },
+        "evidence_source": "experimental",
+        "certainty": "suggested",
+        "polarity": "positive",
+        "molecular_entities": ["PRAME", "5-azacytidine", "DNA methylation"]
+      }
+    ]
+  },
+  {
+    "pmid": "PMID_4",
+    "abstract": "Human and several nonhuman species share the rare ability of modifying acoustic and/or syntactic features of sounds produced, i.e. vocal learning, which is the important neurobiological and behavioral substrate of human speech/language. This convergent trait was suggested to be associated with significant genomic convergence and best manifested at the ROBO-SLIT axon guidance pathway. Here we verified the significance of such genomic convergence and assessed its functional relevance to human speech/language using human genetic variation data. In normal human populations, we found the affected amino acid sites were well fixed and accompanied with significantly more associated protein-coding SNPs in the same genes than the rest genes. Diseased individuals with speech/language disorders have significant more low frequency protein coding SNPs but they preferentially occurred outside the affected genes. Such patients' SNPs were enriched in several functional categories including two axon guidance pathways (mediated by netrin and semaphorin) that interact with ROBO-SLITs. Four of the six patients have homozygous missense SNPs on PRAME gene family, one youngest gene family in human lineage, which possibly acts upon retinoic acid receptor signaling, similarly as FOXP2, to modulate axon guidance. Taken together, we suggest the axon guidance pathways (e.g. ROBO-SLIT, PRAME gene family) served as common targets for human speech/language evolution and related disorders.",
+    "claims": [
+      {
+        "id": "C1",
+        "text": "PRAME gene family may modulate axon guidance through retinoic acid receptor signaling.",
+        "claim_type": "functional_role",
+        "subject": "PRAME gene family",
+        "predicate": "may modulate",
+        "object": "axon guidance through retinoic acid receptor signaling",
+        "context": {
+          "disease": ["speech/language disorders"],
+          "cell_line": [],
+          "tissue": ["nervous system"],
+          "species": ["human"]
+        },
+        "evidence_source": "bioinformatics",
+        "certainty": "hypothesis",
+        "polarity": "positive",
+        "molecular_entities": [
+          "PRAME",
+          "FOXP2",
+          "ROBO-SLIT",
+          "retinoic acid receptor signaling"
+        ]
+      },
+      {
+        "id": "C2",
+        "text": "PRAME gene family was associated with axon guidance pathways involved in speech and language evolution.",
+        "claim_type": "pathway_interaction",
+        "subject": "PRAME gene family",
+        "predicate": "was associated with",
+        "object": "axon guidance pathways involved in speech and language evolution",
+        "context": {
+          "disease": ["speech/language disorders"],
+          "cell_line": [],
+          "tissue": ["nervous system"],
+          "species": ["human"]
+        },
+        "evidence_source": "bioinformatics",
+        "certainty": "suggested",
+        "polarity": "positive",
+        "molecular_entities": [
+          "PRAME",
+          "ROBO-SLIT",
+          "FOXP2",
+          "netrin pathway",
+          "semaphorin pathway"
+        ]
+      },
+      {
+        "id": "C3",
+        "text": "Homozygous missense SNPs in PRAME gene family members were identified in patients with speech and language disorders.",
+        "claim_type": "mutation_association",
+        "subject": "homozygous missense SNPs in PRAME gene family members",
+        "predicate": "were identified in",
+        "object": "patients with speech and language disorders",
+        "context": {
+          "disease": ["speech/language disorders"],
+          "cell_line": [],
+          "tissue": [],
+          "species": ["human"]
+        },
+        "evidence_source": "bioinformatics",
+        "certainty": "observed",
+        "polarity": "positive",
+        "molecular_entities": ["PRAME"]
+      },
+      {
+        "id": "C4",
+        "text": "Affected amino acid sites in PRAME-related genes were well fixed in normal human populations.",
+        "claim_type": "association",
+        "subject": "affected amino acid sites in PRAME-related genes",
+        "predicate": "were well fixed in",
+        "object": "normal human populations",
+        "context": {
+          "disease": [],
+          "cell_line": [],
+          "tissue": [],
+          "species": ["human"]
+        },
+        "evidence_source": "bioinformatics",
+        "certainty": "observed",
+        "polarity": "positive",
+        "molecular_entities": ["PRAME"]
+      }
+    ]
+  },
+  {
+    "pmid": "PMID_5",
+    "abstract": "Neisseria gonorrhoeae opacity-associated (Opa) proteins are a family of outer membrane proteins involved in gonococcal adherence to and invasion of human cells. We wanted to identify additional roles for Opa in the infectious process and used the yeast two-hybrid system to identify human epithelial cell proteins that interact with Opa proteins. Although this system has been used successfully to identify many types of interacting proteins, it has not been used to screen a human cell cDNA library for binding partners of a prokaryotic outer membrane protein. Therefore, we were also interested in exploring the versatility of the yeast two-hybrid system in identifying bacteria-host interactions. Using OpaP from strain F62SF as bait, we screened a HeLa cell cDNA library for Opa-interacting proteins (OIPs). We identified five different OIPs, designated OIP1-OIP5, two of which are homologous to human proteins -- PRAME and pyruvate kinase isoenzyme M2 (PK). In the studies presented here, we investigated the interaction between Opa proteins and PK in more depth. Opa-PK interactions were confirmed by in vitro and in vivo assays independent of the yeast two-hybrid system. Escherichia coli expressing six different Opa proteins from gonococcal strain FA1090 all bound more PK than Opa-negative E. coli in in vitro binding assays. Using anti-PK antibody and fluorescence microscopy, we showed that human epithelial cell PK co-localizes with intracellular Opa+ gonococci and E. coli expressing Opa proteins. Using a mutant of N. gonorrhoeae unable to grow on pyruvate or lactate, it appears that intracellular pyruvate is essential for gonococcal growth and survival. These results suggest a novel mechanism in bacterial pathogenesis, i.e. the requirement for direct molecular interaction with a host metabolic enzyme (PK) for the acquisition of an essential intracellular carbon source and growth substrate (pyruvate). These results demonstrate that the yeast two-hybrid system is a valuable tool for identifying biologically relevant interactions between bacteria and host proteins, providing valuable leads for further investigations into novel mechanisms of bacterial pathogenesis.",
+    "claims": [
+      {
+        "id": "C1",
+        "text": "PRAME was identified as an Opa-interacting protein in human epithelial cells.",
+        "claim_type": "pathway_interaction",
+        "subject": "PRAME",
+        "predicate": "interacts with",
+        "object": "Opa proteins",
+        "context": {
+          "disease": ["gonococcal infection"],
+          "cell_line": ["HeLa"],
+          "tissue": ["epithelial cells"],
+          "species": ["human", "Neisseria gonorrhoeae"]
+        },
+        "evidence_source": "experimental",
+        "certainty": "observed",
+        "polarity": "positive",
+        "molecular_entities": [
+          "PRAME",
+          "Opa",
+          "pyruvate kinase isoenzyme M2",
+          "PK"
+        ]
+      },
+      {
+        "id": "C2",
+        "text": "Opa proteins interacted with pyruvate kinase isoenzyme M2 in vitro and in vivo.",
+        "claim_type": "pathway_interaction",
+        "subject": "Opa proteins",
+        "predicate": "interacted with",
+        "object": "pyruvate kinase isoenzyme M2",
+        "context": {
+          "disease": ["gonococcal infection"],
+          "cell_line": [],
+          "tissue": ["epithelial cells"],
+          "species": ["human", "Neisseria gonorrhoeae"]
+        },
+        "evidence_source": "experimental",
+        "certainty": "observed",
+        "polarity": "positive",
+        "molecular_entities": [
+          "PRAME",
+          "Opa",
+          "PK"
+        ]
+      },
+      {
+        "id": "C3",
+        "text": "Human epithelial cell pyruvate kinase co-localized with intracellular Opa-positive gonococci.",
+        "claim_type": "localization",
+        "subject": "pyruvate kinase",
+        "predicate": "co-localized with",
+        "object": "intracellular Opa-positive gonococci",
+        "context": {
+          "disease": ["gonococcal infection"],
+          "cell_line": [],
+          "tissue": ["epithelial cells"],
+          "species": ["human", "Neisseria gonorrhoeae"]
+        },
+        "evidence_source": "experimental",
+        "certainty": "observed",
+        "polarity": "positive",
+        "molecular_entities": [
+          "Opa",
+          "PK",
+          "PRAME"
+        ]
+      },
+      {
+        "id": "C4",
+        "text": "Intracellular pyruvate was essential for gonococcal growth and survival.",
+        "claim_type": "functional_role",
+        "subject": "intracellular pyruvate",
+        "predicate": "was essential for",
+        "object": "gonococcal growth and survival",
+        "context": {
+          "disease": ["gonococcal infection"],
+          "cell_line": [],
+          "tissue": [],
+          "species": ["Neisseria gonorrhoeae"]
+        },
+        "evidence_source": "experimental",
+        "certainty": "suggested",
+        "polarity": "positive",
+        "molecular_entities": [
+          "PK",
+          "pyruvate",
+          "Opa",
+          "PRAME"
+        ]
+      },
+      {
+        "id": "C5",
+        "text": "Direct interaction with host pyruvate kinase may contribute to bacterial acquisition of pyruvate.",
+        "claim_type": "hypothesis",
+        "subject": "interaction with host pyruvate kinase",
+        "predicate": "may contribute to",
+        "object": "bacterial acquisition of pyruvate",
+        "context": {
+          "disease": ["gonococcal infection"],
+          "cell_line": [],
+          "tissue": ["epithelial cells"],
+          "species": ["human", "Neisseria gonorrhoeae"]
+        },
+        "evidence_source": "experimental",
+        "certainty": "hypothesis",
+        "polarity": "positive",
+        "molecular_entities": [
+          "PK",
+          "Opa",
+          "PRAME",
+          "pyruvate"
+        ]
+      }
+    ]
+  },
+  {
+    "pmid": "PMID_6",
+    "abstract": "Naive pluripotency is established in preimplantation epiblast. Embryonic stem cells (ESCs) represent the immortalization of naive pluripotency. 2i culture has optimized this state, leading to a gene signature and DNA hypomethylation closely comparable to preimplantation epiblast, the developmental ground state. Here we show that Pramel7 (PRAME-like 7), a protein highly expressed in the inner cell mass (ICM) but expressed at low levels in ESCs, targets for proteasomal degradation UHRF1, a key factor for DNA methylation maintenance. Increasing Pramel7 expression in serum-cultured ESCs promotes a preimplantation epiblast-like gene signature, reduces UHRF1 levels and causes global DNA hypomethylation. Pramel7 is required for blastocyst formation and its forced expression locks ESCs in pluripotency. Pramel7/UHRF1 expression is mutually exclusive in ICMs whereas Pramel7-knockout embryos express high levels of UHRF1. Our data reveal an as-yet-unappreciated dynamic nature of DNA methylation through proteasome pathways and offer insights that might help to improve ESC culture to reproduce in vitro the in vivo ground-state pluripotency.",
+    "claims": [
+      {
+        "id": "C1",
+        "text": "Pramel7 was highly expressed in the inner cell mass and expressed at low levels in embryonic stem cells.",
+        "claim_type": "differential_expression",
+        "subject": "Pramel7",
+        "predicate": "was highly expressed in",
+        "object": "inner cell mass compared with embryonic stem cells",
+        "context": {
+          "disease": [],
+          "cell_line": ["embryonic stem cells"],
+          "tissue": ["inner cell mass"],
+          "species": ["mouse"]
+        },
+        "evidence_source": "experimental",
+        "certainty": "observed",
+        "polarity": "positive",
+        "molecular_entities": [
+          "Pramel7",
+          "UHRF1"
+        ]
+      },
+      {
+        "id": "C2",
+        "text": "Pramel7 targeted UHRF1 for proteasomal degradation.",
+        "claim_type": "regulation",
+        "subject": "Pramel7",
+        "predicate": "targeted for proteasomal degradation",
+        "object": "UHRF1",
+        "context": {
+          "disease": [],
+          "cell_line": ["embryonic stem cells"],
+          "tissue": [],
+          "species": ["mouse"]
+        },
+        "evidence_source": "experimental",
+        "certainty": "observed",
+        "polarity": "positive",
+        "molecular_entities": [
+          "Pramel7",
+          "UHRF1"
+        ]
+      },
+      {
+        "id": "C3",
+        "text": "Increasing Pramel7 expression reduced UHRF1 levels.",
+        "claim_type": "regulation",
+        "subject": "Pramel7",
+        "predicate": "reduced levels of",
+        "object": "UHRF1",
+        "context": {
+          "disease": [],
+          "cell_line": ["embryonic stem cells"],
+          "tissue": [],
+          "species": ["mouse"]
+        },
+        "evidence_source": "experimental",
+        "certainty": "observed",
+        "polarity": "negative",
+        "molecular_entities": [
+          "Pramel7",
+          "UHRF1"
+        ]
+      },
+      {
+        "id": "C4",
+        "text": "Increasing Pramel7 expression caused global DNA hypomethylation.",
+        "claim_type": "epigenetic_regulation",
+        "subject": "Pramel7",
+        "predicate": "caused",
+        "object": "global DNA hypomethylation",
+        "context": {
+          "disease": [],
+          "cell_line": ["embryonic stem cells"],
+          "tissue": [],
+          "species": ["mouse"]
+        },
+        "evidence_source": "experimental",
+        "certainty": "observed",
+        "polarity": "positive",
+        "molecular_entities": [
+          "Pramel7",
+          "UHRF1",
+          "DNA methylation"
+        ]
+      },
+      {
+        "id": "C5",
+        "text": "Increasing Pramel7 expression promoted a preimplantation epiblast-like gene signature.",
+        "claim_type": "functional_role",
+        "subject": "Pramel7",
+        "predicate": "promoted",
+        "object": "preimplantation epiblast-like gene signature",
+        "context": {
+          "disease": [],
+          "cell_line": ["embryonic stem cells"],
+          "tissue": ["preimplantation epiblast"],
+          "species": ["mouse"]
+        },
+        "evidence_source": "experimental",
+        "certainty": "observed",
+        "polarity": "positive",
+        "molecular_entities": [
+          "Pramel7",
+          "UHRF1"
+        ]
+      },
+      {
+        "id": "C6",
+        "text": "Pramel7 was required for blastocyst formation.",
+        "claim_type": "functional_role",
+        "subject": "Pramel7",
+        "predicate": "was required for",
+        "object": "blastocyst formation",
+        "context": {
+          "disease": [],
+          "cell_line": [],
+          "tissue": ["blastocyst"],
+          "species": ["mouse"]
+        },
+        "evidence_source": "experimental",
+        "certainty": "observed",
+        "polarity": "positive",
+        "molecular_entities": [
+          "Pramel7"
+        ]
+      },
+      {
+        "id": "C7",
+        "text": "Forced Pramel7 expression maintained embryonic stem cells in pluripotency.",
+        "claim_type": "functional_role",
+        "subject": "Pramel7",
+        "predicate": "maintained",
+        "object": "embryonic stem cell pluripotency",
+        "context": {
+          "disease": [],
+          "cell_line": ["embryonic stem cells"],
+          "tissue": [],
+          "species": ["mouse"]
+        },
+        "evidence_source": "experimental",
+        "certainty": "observed",
+        "polarity": "positive",
+        "molecular_entities": [
+          "Pramel7"
+        ]
+      },
+      {
+        "id": "C8",
+        "text": "Pramel7 and UHRF1 expression were mutually exclusive in the inner cell mass.",
+        "claim_type": "association",
+        "subject": "Pramel7 expression",
+        "predicate": "was mutually exclusive with",
+        "object": "UHRF1 expression",
+        "context": {
+          "disease": [],
+          "cell_line": [],
+          "tissue": ["inner cell mass"],
+          "species": ["mouse"]
+        },
+        "evidence_source": "experimental",
+        "certainty": "observed",
+        "polarity": "negative",
+        "molecular_entities": [
+          "Pramel7",
+          "UHRF1"
+        ]
+      },
+      {
+        "id": "C9",
+        "text": "Pramel7-knockout embryos expressed high levels of UHRF1.",
+        "claim_type": "regulation",
+        "subject": "Pramel7 knockout",
+        "predicate": "was associated with high expression of",
+        "object": "UHRF1",
+        "context": {
+          "disease": [],
+          "cell_line": [],
+          "tissue": ["embryo"],
+          "species": ["mouse"]
+        },
+        "evidence_source": "experimental",
+        "certainty": "observed",
+        "polarity": "positive",
+        "molecular_entities": [
+          "Pramel7",
+          "UHRF1"
+        ]
+      }
+    ]
+  },
+  {
+    "pmid": "PMID_7",
+    "abstract": "The human tumour antigen PRAME (preferentially expressed antigen in melanoma) is frequently overexpressed during oncogenesis, and high PRAME levels are associated with poor clinical outcome in a variety of cancers. However, the molecular pathways in which PRAME is implicated are not well understood. We recently characterized PRAME as a BC-box subunit of a Cullin2-based E3 ubiquitin ligase. In this study, we mined the PRAME interactome to a deeper level and identified specific interactions with OSGEP and LAGE3, which are human orthologues of the ancient EKC/KEOPS complex. By characterizing biochemically the human EKC complex and its interactions with PRAME, we show that PRAME recruits a Cul2 ubiquitin ligase to EKC. Moreover, EKC subunits associate with PRAME target sites on chromatin. Our data reveal a novel link between the oncoprotein PRAME and the conserved EKC complex and support a role for both complexes in the same pathways.",
+    "claims": [
+      {
+        "id": "C1",
+        "text": "PRAME is frequently overexpressed during oncogenesis.",
+        "claim_type": "expression",
+        "subject": "PRAME",
+        "predicate": "is frequently overexpressed during",
+        "object": "oncogenesis",
+        "context": {
+          "disease": ["cancer"],
+          "cell_line": [],
+          "tissue": [],
+          "species": ["human"]
+        },
+        "evidence_source": "review",
+        "certainty": "observed",
+        "polarity": "positive",
+        "molecular_entities": [
+          "PRAME"
+        ]
+      },
+      {
+        "id": "C2",
+        "text": "High PRAME levels are associated with poor clinical outcome in multiple cancers.",
+        "claim_type": "prognostic_association",
+        "subject": "high PRAME levels",
+        "predicate": "are associated with",
+        "object": "poor clinical outcome",
+        "context": {
+          "disease": ["cancer"],
+          "cell_line": [],
+          "tissue": [],
+          "species": ["human"]
+        },
+        "evidence_source": "clinical",
+        "certainty": "observed",
+        "polarity": "negative",
+        "molecular_entities": [
+          "PRAME"
+        ]
+      },
+      {
+        "id": "C3",
+        "text": "PRAME functions as a BC-box subunit of a Cullin2-based E3 ubiquitin ligase.",
+        "claim_type": "functional_role",
+        "subject": "PRAME",
+        "predicate": "functions as",
+        "object": "BC-box subunit of a Cullin2-based E3 ubiquitin ligase",
+        "context": {
+          "disease": ["cancer"],
+          "cell_line": [],
+          "tissue": [],
+          "species": ["human"]
+        },
+        "evidence_source": "experimental",
+        "certainty": "observed",
+        "polarity": "positive",
+        "molecular_entities": [
+          "PRAME",
+          "Cullin2"
+        ]
+      },
+      {
+        "id": "C4",
+        "text": "PRAME specifically interacted with OSGEP.",
+        "claim_type": "pathway_interaction",
+        "subject": "PRAME",
+        "predicate": "interacted with",
+        "object": "OSGEP",
+        "context": {
+          "disease": ["cancer"],
+          "cell_line": [],
+          "tissue": [],
+          "species": ["human"]
+        },
+        "evidence_source": "experimental",
+        "certainty": "observed",
+        "polarity": "positive",
+        "molecular_entities": [
+          "PRAME",
+          "OSGEP",
+          "LAGE3",
+          "EKC",
+          "KEOPS"
+        ]
+      },
+      {
+        "id": "C5",
+        "text": "PRAME specifically interacted with LAGE3.",
+        "claim_type": "pathway_interaction",
+        "subject": "PRAME",
+        "predicate": "interacted with",
+        "object": "LAGE3",
+        "context": {
+          "disease": ["cancer"],
+          "cell_line": [],
+          "tissue": [],
+          "species": ["human"]
+        },
+        "evidence_source": "experimental",
+        "certainty": "observed",
+        "polarity": "positive",
+        "molecular_entities": [
+          "PRAME",
+          "LAGE3",
+          "OSGEP",
+          "EKC",
+          "KEOPS"
+        ]
+      },
+      {
+        "id": "C6",
+        "text": "PRAME recruited a Cullin2 ubiquitin ligase to the EKC complex.",
+        "claim_type": "regulation",
+        "subject": "PRAME",
+        "predicate": "recruited",
+        "object": "Cullin2 ubiquitin ligase to the EKC complex",
+        "context": {
+          "disease": ["cancer"],
+          "cell_line": [],
+          "tissue": [],
+          "species": ["human"]
+        },
+        "evidence_source": "experimental",
+        "certainty": "observed",
+        "polarity": "positive",
+        "molecular_entities": [
+          "PRAME",
+          "Cullin2",
+          "EKC",
+          "OSGEP",
+          "LAGE3"
+        ]
+      },
+      {
+        "id": "C7",
+        "text": "EKC subunits associated with PRAME target sites on chromatin.",
+        "claim_type": "pathway_interaction",
+        "subject": "EKC subunits",
+        "predicate": "associated with",
+        "object": "PRAME target sites on chromatin",
+        "context": {
+          "disease": ["cancer"],
+          "cell_line": [],
+          "tissue": [],
+          "species": ["human"]
+        },
+        "evidence_source": "experimental",
+        "certainty": "observed",
+        "polarity": "positive",
+        "molecular_entities": [
+          "PRAME",
+          "EKC"
+        ]
+      },
+      {
+        "id": "C8",
+        "text": "PRAME and the EKC complex may function in the same pathways.",
+        "claim_type": "hypothesis",
+        "subject": "PRAME and the EKC complex",
+        "predicate": "may function in",
+        "object": "the same pathways",
+        "context": {
+          "disease": ["cancer"],
+          "cell_line": [],
+          "tissue": [],
+          "species": ["human"]
+        },
+        "evidence_source": "experimental",
+        "certainty": "hypothesis",
+        "polarity": "positive",
+        "molecular_entities": [
+          "PRAME",
+          "EKC",
+          "OSGEP",
+          "LAGE3",
+          "Cullin2"
+        ]
+      }
+    ]
+  },
+  {
+    "pmid": "PMID_8",
+    "abstract": "Retinoic acid (RA) induces proliferation arrest, differentiation, and apoptosis, and defects in retinoic acid receptor (RAR) signaling have been implicated in cancer. The human tumor antigen PRAME is overexpressed in a variety of cancers, but its function has remained unclear. We identify here PRAME as a dominant repressor of RAR signaling. PRAME binds to RAR in the presence of RA, preventing ligand-induced receptor activation and target gene transcription through recruitment of Polycomb proteins. PRAME is present at RAR target promoters and inhibits RA-induced differentiation, growth arrest, and apoptosis. Conversely, knockdown of PRAME expression by RNA interference in RA-resistant human melanoma restores RAR signaling and reinstates sensitivity to the antiproliferative effects of RA in vitro and in vivo. Our data suggest that overexpression of PRAME frequently observed in human cancers confers growth or survival advantages by antagonizing RAR signaling.",
+    "claims": [
+      {
+        "id": "C1",
+        "text": "PRAME acts as a dominant repressor of retinoic acid receptor signaling.",
+        "claim_type": "regulation",
+        "subject": "PRAME",
+        "predicate": "acts as repressor of",
+        "object": "retinoic acid receptor signaling",
+        "context": {
+          "disease": ["cancer", "melanoma"],
+          "cell_line": [],
+          "tissue": [],
+          "species": ["human"]
+        },
+        "evidence_source": "experimental",
+        "certainty": "observed",
+        "polarity": "negative",
+        "molecular_entities": [
+          "PRAME",
+          "RAR",
+          "retinoic acid",
+          "Polycomb"
+        ]
+      },
+      {
+        "id": "C2",
+        "text": "PRAME bound to retinoic acid receptor in the presence of retinoic acid.",
+        "claim_type": "pathway_interaction",
+        "subject": "PRAME",
+        "predicate": "bound to",
+        "object": "retinoic acid receptor",
+        "context": {
+          "disease": ["cancer"],
+          "cell_line": [],
+          "tissue": [],
+          "species": ["human"]
+        },
+        "evidence_source": "experimental",
+        "certainty": "observed",
+        "polarity": "positive",
+        "molecular_entities": [
+          "PRAME",
+          "RAR",
+          "retinoic acid"
+        ]
+      },
+      {
+        "id": "C3",
+        "text": "PRAME prevented ligand-induced activation of retinoic acid receptor.",
+        "claim_type": "regulation",
+        "subject": "PRAME",
+        "predicate": "prevented activation of",
+        "object": "retinoic acid receptor",
+        "context": {
+          "disease": ["cancer"],
+          "cell_line": [],
+          "tissue": [],
+          "species": ["human"]
+        },
+        "evidence_source": "experimental",
+        "certainty": "observed",
+        "polarity": "negative",
+        "molecular_entities": [
+          "PRAME",
+          "RAR",
+          "retinoic acid"
+        ]
+      },
+      {
+        "id": "C4",
+        "text": "PRAME inhibited retinoic acid receptor target gene transcription through recruitment of Polycomb proteins.",
+        "claim_type": "regulation",
+        "subject": "PRAME",
+        "predicate": "inhibited",
+        "object": "retinoic acid receptor target gene transcription",
+        "context": {
+          "disease": ["cancer"],
+          "cell_line": [],
+          "tissue": [],
+          "species": ["human"]
+        },
+        "evidence_source": "experimental",
+        "certainty": "observed",
+        "polarity": "negative",
+        "molecular_entities": [
+          "PRAME",
+          "RAR",
+          "Polycomb"
+        ]
+      },
+      {
+        "id": "C5",
+        "text": "PRAME was present at retinoic acid receptor target promoters.",
+        "claim_type": "localization",
+        "subject": "PRAME",
+        "predicate": "was present at",
+        "object": "retinoic acid receptor target promoters",
+        "context": {
+          "disease": ["cancer"],
+          "cell_line": [],
+          "tissue": [],
+          "species": ["human"]
+        },
+        "evidence_source": "experimental",
+        "certainty": "observed",
+        "polarity": "positive",
+        "molecular_entities": [
+          "PRAME",
+          "RAR"
+        ]
+      },
+      {
+        "id": "C6",
+        "text": "PRAME inhibited retinoic acid-induced differentiation.",
+        "claim_type": "functional_role",
+        "subject": "PRAME",
+        "predicate": "inhibited",
+        "object": "retinoic acid-induced differentiation",
+        "context": {
+          "disease": ["cancer"],
+          "cell_line": [],
+          "tissue": [],
+          "species": ["human"]
+        },
+        "evidence_source": "experimental",
+        "certainty": "observed",
+        "polarity": "negative",
+        "molecular_entities": [
+          "PRAME",
+          "retinoic acid",
+          "RAR"
+        ]
+      },
+      {
+        "id": "C7",
+        "text": "PRAME inhibited retinoic acid-induced growth arrest.",
+        "claim_type": "functional_role",
+        "subject": "PRAME",
+        "predicate": "inhibited",
+        "object": "retinoic acid-induced growth arrest",
+        "context": {
+          "disease": ["cancer"],
+          "cell_line": [],
+          "tissue": [],
+          "species": ["human"]
+        },
+        "evidence_source": "experimental",
+        "certainty": "observed",
+        "polarity": "negative",
+        "molecular_entities": [
+          "PRAME",
+          "retinoic acid",
+          "RAR"
+        ]
+      },
+      {
+        "id": "C8",
+        "text": "PRAME inhibited retinoic acid-induced apoptosis.",
+        "claim_type": "functional_role",
+        "subject": "PRAME",
+        "predicate": "inhibited",
+        "object": "retinoic acid-induced apoptosis",
+        "context": {
+          "disease": ["cancer"],
+          "cell_line": [],
+          "tissue": [],
+          "species": ["human"]
+        },
+        "evidence_source": "experimental",
+        "certainty": "observed",
+        "polarity": "negative",
+        "molecular_entities": [
+          "PRAME",
+          "retinoic acid",
+          "RAR"
+        ]
+      },
+      {
+        "id": "C9",
+        "text": "Knockdown of PRAME restored retinoic acid receptor signaling in retinoic acid-resistant melanoma.",
+        "claim_type": "drug_response",
+        "subject": "PRAME knockdown",
+        "predicate": "restored",
+        "object": "retinoic acid receptor signaling",
+        "context": {
+          "disease": ["melanoma"],
+          "cell_line": [],
+          "tissue": [],
+          "species": ["human"]
+        },
+        "evidence_source": "experimental",
+        "certainty": "observed",
+        "polarity": "positive",
+        "molecular_entities": [
+          "PRAME",
+          "RAR",
+          "retinoic acid"
+        ]
+      },
+      {
+        "id": "C10",
+        "text": "Knockdown of PRAME restored sensitivity to the antiproliferative effects of retinoic acid in melanoma.",
+        "claim_type": "drug_response",
+        "subject": "PRAME knockdown",
+        "predicate": "restored sensitivity to",
+        "object": "antiproliferative effects of retinoic acid",
+        "context": {
+          "disease": ["melanoma"],
+          "cell_line": [],
+          "tissue": [],
+          "species": ["human"]
+        },
+        "evidence_source": "experimental",
+        "certainty": "observed",
+        "polarity": "positive",
+        "molecular_entities": [
+          "PRAME",
+          "retinoic acid",
+          "RAR"
+        ]
+      },
+      {
+        "id": "C11",
+        "text": "PRAME overexpression may confer growth or survival advantages by antagonizing retinoic acid receptor signaling.",
+        "claim_type": "hypothesis",
+        "subject": "PRAME overexpression",
+        "predicate": "may confer",
+        "object": "growth or survival advantages through antagonism of retinoic acid receptor signaling",
+        "context": {
+          "disease": ["cancer"],
+          "cell_line": [],
+          "tissue": [],
+          "species": ["human"]
+        },
+        "evidence_source": "experimental",
+        "certainty": "hypothesis",
+        "polarity": "positive",
+        "molecular_entities": [
+          "PRAME",
+          "RAR",
+          "retinoic acid"
+        ]
+      }
+    ]
+  },
+  {
+    "pmid": "PMID_9",
+    "abstract": "Type II germ cell cancers (GCC) are divided into seminomas, which are highly similar to primordial germ cells and embryonal carcinomas (EC), often described as malignant counterparts to embryonic stem cells.Previously, we demonstrated that the development of GCCs is a highly plastic process and strongly influenced by the microenvironment. While orthotopic transplantation into the testis promotes seminomatous growth of the seminoma-like cell line TCam-2, ectopic xenotransplantation into the flank initiates reprogramming into an EC-like fate.During this reprogramming, BMP signaling is inhibited, leading to induction of NODAL signaling, upregulation of pluripotency factors and downregulation of seminoma markers, like SOX17. The pluripotency factor and EC-marker SOX2 is strongly induced.Here, we adressed the molecular role of SOX2 in this reprogramming. Using CRISPR/Cas9-mediated genome-editing, we established SOX2-deficient TCam-2 cells. Xenografting of SOX2-deficient cells into the flank of nude mice resulted in maintenance of a seminoma-like fate, indicated by the histology and expression of OCT3/4, SOX17, TFAP2C, PRDM1 and PRAME. In SOX2-deficient cells, BMP signaling is inhibited, but NODAL signaling is not activated. Thus, SOX2 appears to be downstream of BMP signaling but upstream of NODAL activation. So, SOX2 is an essential factor in acquiring an EC-like cell fate from seminomas.A small population of differentiated cells was identified resembling a mixed non-seminoma. Analyses of these cells revealed downregulation of the pluripotency and seminoma markers OCT3/4, SOX17, PRDM1 and TFAP2C. In contrast, the pioneer factor FOXA2 and its target genes were upregulated, suggesting that FOXA2 might play an important role in induction of non-seminomatous differentiation.",
+    "claims": [
+      {
+        "id": "C1",
+        "text": "SOX2-deficient germ cell tumor cells maintained a seminoma-like fate after xenografting into the flank of mice.",
+        "claim_type": "functional_role",
+        "subject": "SOX2-deficient TCam-2 cells",
+        "predicate": "maintained",
+        "object": "seminoma-like fate",
+        "context": {
+          "disease": ["germ cell cancer"],
+          "cell_line": ["TCam-2"],
+          "tissue": ["testis", "flank xenograft"],
+          "species": ["mouse", "human"]
+        },
+        "evidence_source": "experimental",
+        "certainty": "observed",
+        "polarity": "positive",
+        "molecular_entities": [
+          "SOX2",
+          "SOX17",
+          "PRDM1",
+          "TFAP2C",
+          "PRAME"
+        ]
+      },
+      {
+        "id": "C2",
+        "text": "SOX2-deficient cells did not activate NODAL signaling despite inhibition of BMP signaling.",
+        "claim_type": "pathway_interaction",
+        "subject": "SOX2-deficient cells",
+        "predicate": "failed to activate",
+        "object": "NODAL signaling",
+        "context": {
+          "disease": ["germ cell cancer"],
+          "cell_line": ["TCam-2"],
+          "tissue": [],
+          "species": ["mouse"]
+        },
+        "evidence_source": "experimental",
+        "certainty": "observed",
+        "polarity": "negative",
+        "molecular_entities": [
+          "SOX2",
+          "BMP signaling",
+          "NODAL signaling"
+        ]
+      },
+      {
+        "id": "C3",
+        "text": "SOX2 is required for acquisition of embryonal carcinoma-like cell fate from seminomas.",
+        "claim_type": "functional_role",
+        "subject": "SOX2",
+        "predicate": "is required for",
+        "object": "embryonal carcinoma-like cell fate acquisition",
+        "context": {
+          "disease": ["germ cell cancer"],
+          "cell_line": ["TCam-2"],
+          "tissue": [],
+          "species": ["mouse"]
+        },
+        "evidence_source": "experimental",
+        "certainty": "observed",
+        "polarity": "positive",
+        "molecular_entities": [
+          "SOX2",
+          "PRAME"
+        ]
+      },
+      {
+        "id": "C4",
+        "text": "SOX2-deficient cells retained expression of PRAME and other seminoma markers.",
+        "claim_type": "expression",
+        "subject": "PRAME",
+        "predicate": "was expressed in",
+        "object": "SOX2-deficient seminoma-like cells",
+        "context": {
+          "disease": ["germ cell cancer"],
+          "cell_line": ["TCam-2"],
+          "tissue": [],
+          "species": ["mouse"]
+        },
+        "evidence_source": "experimental",
+        "certainty": "observed",
+        "polarity": "positive",
+        "molecular_entities": [
+          "PRAME",
+          "SOX2",
+          "SOX17",
+          "PRDM1",
+          "TFAP2C"
+        ]
+      },
+      {
+        "id": "C5",
+        "text": "FOX A2 and its target genes were upregulated in differentiated non-seminoma-like cells.",
+        "claim_type": "regulation",
+        "subject": "FOXA2",
+        "predicate": "was upregulated and activated",
+        "object": "non-seminoma differentiation program",
+        "context": {
+          "disease": ["germ cell cancer"],
+          "cell_line": [],
+          "tissue": [],
+          "species": ["mouse"]
+        },
+        "evidence_source": "experimental",
+        "certainty": "observed",
+        "polarity": "positive",
+        "molecular_entities": [
+          "FOXA2"
+        ]
+      }
+    ]
+  },
+  {
+    "pmid": "PMID_10",
+    "abstract": "Background: Cancer/testis-antigens (CTAs) are specifically expressed in human malignancies and testis tissue, but their molecular functions are poorly understood. CTAs serve as regulators of gene expression, cell cycle and spermatogenesis, as well as targets for immune-based therapies. The CTA PRAME is expressed in various cancers, antagonises retinoic acid signalling and is regulated by DNA methylation and histone acetylation. Methods: We analysed the molecular function of the CTA PRAME in primordial germ cells (PGC) and testicular germ cell cancers (GCC). GCCs arise from a common precursor lesion termed germ cell neoplasia in situ (GCNIS), which itself is thought to originate from a defective PGC. GCNIS cells eventually develop into unipotent seminomas or totipotent embryonal carcinomas (ECs), which are capable of differentiation into teratomas, yolk-sac tumours and choriocarcinomas. Results: PRAME is, like the master regulator of PGCs SOX17 expressed in human PGCs, GCNIS and seminomas but absent in ECs. shRNA-mediated knockdown of PRAME in seminomatous TCam-2 cells left SOX17 levels unchanged, but resulted in downregulation of pluripotency- and PGC-related genes (LIN28, PRDM14, ZSCAN10), whereas somatic and germ cell differentiation markers were upregulated. So, PRAME seems to act downstream of SOX17 by mediating the regulation of the germ cell differentiation and pluripotency programme. Endoderm differentiation is triggered in somatic cells by SOX17, suggesting that in PGCs, PRAME represses this programme and modulates SOX17 to function as a PGC-master regulator. Surprisingly, knockdown of PRAME in TCam-2 cells did not render the cells sensitive towards retinoic acid, despite the fact that PRAME has been described to antagonise retinoic acid signalling. Finally, we demonstrate that in non-seminomas PRAME expression is silenced by DNA methylation, which can be activated by formation of euchromatin via histone-deacetylase-inhibitors. Conclusions: We identified the CTA PRAME as a downstream factor of SOX17 and LIN28 in regulating pluripotency and suppressing somatic/germ cell differentiation in PGC, GCNIS and seminomas.",
+    "claims": [
+      {
+        "id": "C1",
+        "text": "PRAME is expressed in human primordial germ cells, germ cell neoplasia in situ, and seminomas but absent in embryonal carcinomas.",
+        "claim_type": "differential_expression",
+        "subject": "PRAME",
+        "predicate": "is expressed in",
+        "object": "PGC, GCNIS, seminomas but not EC",
+        "context": {
+          "disease": ["germ cell tumor"],
+          "cell_line": [],
+          "tissue": ["germ cells"],
+          "species": ["human"]
+        },
+        "evidence_source": "clinical",
+        "certainty": "observed",
+        "polarity": "positive",
+        "molecular_entities": [
+          "PRAME",
+          "SOX17",
+          "LIN28",
+          "PRDM14",
+          "ZSCAN10"
+        ]
+      },
+      {
+        "id": "C2",
+        "text": "Knockdown of PRAME downregulated pluripotency- and germ cell-related genes in seminoma cells.",
+        "claim_type": "regulation",
+        "subject": "PRAME knockdown",
+        "predicate": "downregulated",
+        "object": "pluripotency and germ cell gene program",
+        "context": {
+          "disease": ["germ cell tumor"],
+          "cell_line": ["TCam-2"],
+          "tissue": [],
+          "species": ["human"]
+        },
+        "evidence_source": "experimental",
+        "certainty": "observed",
+        "polarity": "negative",
+        "molecular_entities": [
+          "PRAME",
+          "SOX17",
+          "LIN28",
+          "PRDM14",
+          "ZSCAN10"
+        ]
+      },
+      {
+        "id": "C3",
+        "text": "PRAME represses somatic and germ cell differentiation programs in germ cell tumors.",
+        "claim_type": "functional_role",
+        "subject": "PRAME",
+        "predicate": "represses",
+        "object": "somatic and germ cell differentiation programs",
+        "context": {
+          "disease": ["germ cell tumor"],
+          "cell_line": ["TCam-2"],
+          "tissue": [],
+          "species": ["human"]
+        },
+        "evidence_source": "experimental",
+        "certainty": "suggested",
+        "polarity": "negative",
+        "molecular_entities": [
+          "PRAME",
+          "SOX17",
+          "LIN28"
+        ]
+      },
+      {
+        "id": "C4",
+        "text": "PRAME is regulated by DNA methylation and histone acetylation in germ cell tumors.",
+        "claim_type": "epigenetic_regulation",
+        "subject": "PRAME",
+        "predicate": "is regulated by",
+        "object": "DNA methylation and histone acetylation",
+        "context": {
+          "disease": ["germ cell tumor"],
+          "cell_line": [],
+          "tissue": [],
+          "species": ["human"]
+        },
+        "evidence_source": "experimental",
+        "certainty": "observed",
+        "polarity": "positive",
+        "molecular_entities": [
+          "PRAME",
+          "DNA methylation"
+        ]
+      },
+      {
+        "id": "C5",
+        "text": "Activation of PRAME expression in non-seminomas can be induced by histone deacetylase inhibitors.",
+        "claim_type": "drug_response",
+        "subject": "histone deacetylase inhibitors",
+        "predicate": "induce",
+        "object": "PRAME expression",
+        "context": {
+          "disease": ["germ cell tumor"],
+          "cell_line": [],
+          "tissue": [],
+          "species": ["human"]
+        },
+        "evidence_source": "experimental",
+        "certainty": "observed",
+        "polarity": "positive",
+        "molecular_entities": [
+          "PRAME",
+          "DNA methylation",
+          "histone acetylation"
+        ]
+      }
+    ]
+  },
+  {
+    "pmid": "PMID_11",
+    "abstract": "Retinoids are ubiquitous signaling molecules that influence nearly every cell type, exert profound effects on development, and complement cancer chemotherapeutic regimens. All-trans retinoic acid (RA) and other active retinoids are generated from vitamin A (retinol), but key aspects of the signaling pathways required to produce active retinoids remain unclear. Retinoids generated by one cell type can affect nearby cells, so retinoids also function in intercellular communication. RA induces differentiation primarily by binding to RARs, transcription factors that associate with RXRs and bind RAREs in the nucleus. Binding of RA: (1) initiates changes in interactions of RAR/RXRs with co-repressor and co-activator proteins, activating transcription of primary target genes; (2) alters interactions with proteins that induce epigenetic changes; (3) induces transcription of genes encoding transcription factors and signaling proteins that further modify gene expression (e.g., FOX03A, Hoxa1, Sox9, TRAIL, UBE2D3); and (4) results in alterations in estrogen receptor α signaling. Proteins that bind at or near RAREs include Sin3a, N-CoR1, PRAME, Trim24, NRIP1, Ajuba, Zfp423, and MN1/TEL. Interactions among retinoids, RARs/RXRs, and these proteins explain in part the powerful effects of retinoids on stem cell differentiation. Studies of this retinol signaling cascade enhance our ability to understand and regulate stem cell differentiation for therapeutic and scientific purposes. In cancer chemotherapeutic regimens retinoids can promote tumor cell differentiation and/or induce proteins that sensitize tumors to drug combinations. Mechanistic studies of retinoid signaling continue to suggest novel drug targets and will improve therapeutic strategies for cancer and other diseases, such as immune-mediated inflammatory diseases.",
+    "claims": [
+      {
+        "id": "C1",
+        "text": "PRAME binds to retinoic acid receptors and interacts with multiple nuclear co-regulators.",
+        "claim_type": "pathway_interaction",
+        "subject": "PRAME",
+        "predicate": "binds to",
+        "object": "retinoic acid receptors and co-regulators",
+        "context": {
+          "disease": ["cancer"],
+          "cell_line": [],
+          "tissue": [],
+          "species": ["human"]
+        },
+        "evidence_source": "experimental",
+        "certainty": "observed",
+        "polarity": "positive",
+        "molecular_entities": [
+          "PRAME",
+          "RAR",
+          "RXR",
+          "Sin3a",
+          "N-CoR1",
+          "TRIM24",
+          "NRIP1"
+        ]
+      },
+      {
+        "id": "C2",
+        "text": "Retinoic acid induces gene expression changes through RAR/RXR-mediated transcriptional regulation.",
+        "claim_type": "functional_role",
+        "subject": "retinoic acid",
+        "predicate": "induces",
+        "object": "gene expression changes via RAR/RXR",
+        "context": {
+          "disease": ["cancer"],
+          "cell_line": [],
+          "tissue": [],
+          "species": ["human"]
+        },
+        "evidence_source": "review",
+        "certainty": "observed",
+        "polarity": "positive",
+        "molecular_entities": [
+          "RAR",
+          "RXR",
+          "PRAME"
+        ]
+      },
+      {
+        "id": "C3",
+        "text": "PRAME is located at or near retinoic acid response elements in chromatin.",
+        "claim_type": "localization",
+        "subject": "PRAME",
+        "predicate": "is located at",
+        "object": "RARE-associated chromatin regions",
+        "context": {
+          "disease": ["cancer"],
+          "cell_line": [],
+          "tissue": [],
+          "species": ["human"]
+        },
+        "evidence_source": "experimental",
+        "certainty": "observed",
+        "polarity": "positive",
+        "molecular_entities": [
+          "PRAME",
+          "RAR",
+          "RXR"
+        ]
+      },
+      {
+        "id": "C4",
+        "text": "Retinoids can induce tumor cell differentiation and apoptosis.",
+        "claim_type": "functional_role",
+        "subject": "retinoids",
+        "predicate": "induce",
+        "object": "tumor cell differentiation and apoptosis",
+        "context": {
+          "disease": ["cancer"],
+          "cell_line": [],
+          "tissue": [],
+          "species": ["human"]
+        },
+        "evidence_source": "review",
+        "certainty": "observed",
+        "polarity": "positive",
+        "molecular_entities": [
+          "PRAME",
+          "RAR"
+        ]
+      },
+      {
+        "id": "C5",
+        "text": "PRAME is one of the proteins that bind near retinoic acid response elements.",
+        "claim_type": "pathway_interaction",
+        "subject": "PRAME",
+        "predicate": "binds near",
+        "object": "retinoic acid response elements",
+        "context": {
+          "disease": ["cancer"],
+          "cell_line": [],
+          "tissue": [],
+          "species": ["human"]
+        },
+        "evidence_source": "review",
+        "certainty": "observed",
+        "polarity": "positive",
+        "molecular_entities": [
+          "PRAME",
+          "RAR",
+          "RXR"
+        ]
+      }
+    ]
+  },
+  {
+    "pmid": "PMID_12",
+    "abstract": "Background: The physiological and phenotypic differences between human and chimpanzee are largely specified by our genomic differences. We have been particularly interested in recent duplications in the human genome as examples of relatively large-scale changes to our genome. We performed an in-depth evolutionary analysis of a region of chromosome 1, which is copy number polymorphic among humans, and that contains at least 32 PRAME (Preferentially expressed antigen of melanoma) genes and pseudogenes. PRAME-like genes are expressed in the testis and in a large number of tumours, and are thought to possess roles in spermatogenesis and oogenesis. Results: Using nucleotide substitution rate estimates for exons and introns, we show that two large segmental duplications, of six and seven human PRAME genes respectively, occurred in the last 3 million years. These duplicated genes are thus hominin-specific, having arisen in our genome since the divergence from chimpanzee. This cluster of PRAME genes appears to have arisen initially from a translocation approximately 95-85 million years ago. We identified multiple sites within human or mouse PRAME sequences which exhibit strong evidence of positive selection. These form a pronounced cluster on one face of the predicted PRAME protein structure. Conclusion: We predict that PRAME genes evolved adaptively due to strong competition between rapidly-dividing cells during spermatogenesis and oogenesis. We suggest that as PRAME gene copy number is polymorphic among individuals, positive selection of PRAME alleles may still prevail within the human population.",
+    "claims": [
+      {
+        "id": "C1",
+        "text": "PRAME gene family expanded via recent segmental duplications in humans.",
+        "claim_type": "mutation_association",
+        "subject": "PRAME gene family",
+        "predicate": "expanded via",
+        "object": "segmental duplications",
+        "context": {
+          "disease": [],
+          "cell_line": [],
+          "tissue": ["testis"],
+          "species": ["human"]
+        },
+        "evidence_source": "bioinformatics",
+        "certainty": "observed",
+        "polarity": "positive",
+        "molecular_entities": [
+          "PRAME"
+        ]
+      },
+      {
+        "id": "C2",
+        "text": "PRAME-like genes are expressed in testis and many tumors.",
+        "claim_type": "expression",
+        "subject": "PRAME-like genes",
+        "predicate": "are expressed in",
+        "object": "testis and tumors",
+        "context": {
+          "disease": ["cancer"],
+          "cell_line": [],
+          "tissue": ["testis"],
+          "species": ["human"]
+        },
+        "evidence_source": "bioinformatics",
+        "certainty": "observed",
+        "polarity": "positive",
+        "molecular_entities": [
+          "PRAME"
+        ]
+      },
+      {
+        "id": "C3",
+        "text": "PRAME genes show evidence of positive selection in humans and mice.",
+        "claim_type": "mutation_association",
+        "subject": "PRAME genes",
+        "predicate": "show",
+        "object": "positive selection",
+        "context": {
+          "disease": [],
+          "cell_line": [],
+          "tissue": [],
+          "species": ["human", "mouse"]
+        },
+        "evidence_source": "bioinformatics",
+        "certainty": "observed",
+        "polarity": "positive",
+        "molecular_entities": [
+          "PRAME"
+        ]
+      },
+      {
+        "id": "C4",
+        "text": "PRAME protein structure contains clustered sites under positive selection.",
+        "claim_type": "mutation_association",
+        "subject": "PRAME protein",
+        "predicate": "contains",
+        "object": "positively selected amino acid sites",
+        "context": {
+          "disease": [],
+          "cell_line": [],
+          "tissue": [],
+          "species": ["human", "mouse"]
+        },
+        "evidence_source": "bioinformatics",
+        "certainty": "observed",
+        "polarity": "positive",
+        "molecular_entities": [
+          "PRAME"
+        ]
+      },
+      {
+        "id": "C5",
+        "text": "PRAME gene copy number variation may influence spermatogenesis-related selection.",
+        "claim_type": "functional_role",
+        "subject": "PRAME gene copy number variation",
+        "predicate": "may influence",
+        "object": "spermatogenesis-related selection",
+        "context": {
+          "disease": [],
+          "cell_line": [],
+          "tissue": ["testis"],
+          "species": ["human"]
+        },
+        "evidence_source": "bioinformatics",
+        "certainty": "hypothesis",
+        "polarity": "positive",
+        "molecular_entities": [
+          "PRAME"
+        ]
+      }
+    ]
+  }
+]
