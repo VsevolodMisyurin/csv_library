@@ -1,6 +1,6 @@
 [
   {
-    "pmid": "PMID_1",
+    "pmid": "1",
     "abstract": "Melanoma lines MEL.A and MEL.B were derived from metastases removed from patient LB33 in 1988 and 1993, respectively. The MEL.A cells express several antigens recognized by autologous cytolytic T lymphocytes (CTL) on HLA class I molecules. The MEL.B cells have lost expression of all class I molecules except for HLA-A24. By stimulating autologous lymphocytes with MEL.B, we obtained an HLA-A24-restricted CTL clone that lysed these cells. A novel gene, PRAME, encodes the antigen. It is expressed in a large proportion of tumors and also in some normal tissues, albeit at a lower level. Surprisingly, the CTL failed to lyse MEL.A, even though these cells expressed the gene PRAME. The CTL expresses an NK inhibitory receptor that inhibits its lytic activity upon interaction with HLA-Cw7 molecules, which are present on MEL.A cells and not on MEL.B. Such CTL, active against tumor cells showing partial HLA loss, may constitute an intermediate line of anti-tumor defense between the CTL, which recognize highly specific tumor antigens, and the NK cells, which recognize HLA loss variants.",
     "claims": [
       {
@@ -96,7 +96,7 @@
     ]
   },
   {
-    "pmid": "PMID_2",
+    "pmid": "2",
     "abstract": "In order to elucidate molecular events in BCR/ABL-induced transformation, we adopted a polymerase chain reaction (PCR)-based technique of differential display and compared mRNA expression in human factor-dependent cells, TF-1, with that in factor-independent cells, ID-1, which were established from TF-1 cells by transfection of BCR/ABL. Cloning and sequencing of a gene which was upregulated in ID-1 cells revealed that the gene was identical to a melanoma antigen, PRAME. Our present study demonstrated that PRAME was markedly expressed in primary leukemic cells with chronic myeloid leukemia (CML) in blastic crisis and Philadelphia (Ph)+-acute lymphoblastic leukemia (ALL), in which BCR/ABL played an important role as a pathogenic gene. Moreover, comparison of PRAME expression among CD34+ cells with CML in blastic, accelerated, and chronic phases revealed a higher expression in CML in advanced phases. Thus PRAME was considered to be a good candidate for a marker of Ph+-leukemic blast cells as well as a new target antigen of leukemic blast cells that cytotoxic T cells can recognize.",
     "claims": [
       {
@@ -216,7 +216,7 @@
     ]
   },
   {
-    "pmid": "PMID_3",
+    "pmid": "3",
     "abstract": "PRAME is a tumor associated antigen (TAA) of particular interest since it is widely expressed by lymphoid and myeloid malignancies. Several studies have associated high PRAME RNA levels with good prognosis in acute myeloid leukemia (AML). PRAME expression is regulated at the epigenetic level. For this reason inhibitors of DNA methylation, such as 5-azacytidine, can modulate the expression of this TAAs. In the current study we analyzed the effect of 5-azaC on the expression of PRAME in blasts versus CD34+ cells from healthy donors in an attempt to increase its expression, thus inducing a potential target for therapeutic strategies.",
     "claims": [
       {
@@ -297,7 +297,7 @@
     ]
   },
   {
-    "pmid": "PMID_4",
+    "pmid": "4",
     "abstract": "Human and several nonhuman species share the rare ability of modifying acoustic and/or syntactic features of sounds produced, i.e. vocal learning, which is the important neurobiological and behavioral substrate of human speech/language. This convergent trait was suggested to be associated with significant genomic convergence and best manifested at the ROBO-SLIT axon guidance pathway. Here we verified the significance of such genomic convergence and assessed its functional relevance to human speech/language using human genetic variation data. In normal human populations, we found the affected amino acid sites were well fixed and accompanied with significantly more associated protein-coding SNPs in the same genes than the rest genes. Diseased individuals with speech/language disorders have significant more low frequency protein coding SNPs but they preferentially occurred outside the affected genes. Such patients' SNPs were enriched in several functional categories including two axon guidance pathways (mediated by netrin and semaphorin) that interact with ROBO-SLITs. Four of the six patients have homozygous missense SNPs on PRAME gene family, one youngest gene family in human lineage, which possibly acts upon retinoic acid receptor signaling, similarly as FOXP2, to modulate axon guidance. Taken together, we suggest the axon guidance pathways (e.g. ROBO-SLIT, PRAME gene family) served as common targets for human speech/language evolution and related disorders.",
     "claims": [
       {
@@ -386,7 +386,7 @@
     ]
   },
   {
-    "pmid": "PMID_5",
+    "pmid": "5",
     "abstract": "Neisseria gonorrhoeae opacity-associated (Opa) proteins are a family of outer membrane proteins involved in gonococcal adherence to and invasion of human cells. We wanted to identify additional roles for Opa in the infectious process and used the yeast two-hybrid system to identify human epithelial cell proteins that interact with Opa proteins. Although this system has been used successfully to identify many types of interacting proteins, it has not been used to screen a human cell cDNA library for binding partners of a prokaryotic outer membrane protein. Therefore, we were also interested in exploring the versatility of the yeast two-hybrid system in identifying bacteria-host interactions. Using OpaP from strain F62SF as bait, we screened a HeLa cell cDNA library for Opa-interacting proteins (OIPs). We identified five different OIPs, designated OIP1-OIP5, two of which are homologous to human proteins -- PRAME and pyruvate kinase isoenzyme M2 (PK). In the studies presented here, we investigated the interaction between Opa proteins and PK in more depth. Opa-PK interactions were confirmed by in vitro and in vivo assays independent of the yeast two-hybrid system. Escherichia coli expressing six different Opa proteins from gonococcal strain FA1090 all bound more PK than Opa-negative E. coli in in vitro binding assays. Using anti-PK antibody and fluorescence microscopy, we showed that human epithelial cell PK co-localizes with intracellular Opa+ gonococci and E. coli expressing Opa proteins. Using a mutant of N. gonorrhoeae unable to grow on pyruvate or lactate, it appears that intracellular pyruvate is essential for gonococcal growth and survival. These results suggest a novel mechanism in bacterial pathogenesis, i.e. the requirement for direct molecular interaction with a host metabolic enzyme (PK) for the acquisition of an essential intracellular carbon source and growth substrate (pyruvate). These results demonstrate that the yeast two-hybrid system is a valuable tool for identifying biologically relevant interactions between bacteria and host proteins, providing valuable leads for further investigations into novel mechanisms of bacterial pathogenesis.",
     "claims": [
       {
@@ -505,7 +505,7 @@
     ]
   },
   {
-    "pmid": "PMID_6",
+    "pmid": "6",
     "abstract": "Naive pluripotency is established in preimplantation epiblast. Embryonic stem cells (ESCs) represent the immortalization of naive pluripotency. 2i culture has optimized this state, leading to a gene signature and DNA hypomethylation closely comparable to preimplantation epiblast, the developmental ground state. Here we show that Pramel7 (PRAME-like 7), a protein highly expressed in the inner cell mass (ICM) but expressed at low levels in ESCs, targets for proteasomal degradation UHRF1, a key factor for DNA methylation maintenance. Increasing Pramel7 expression in serum-cultured ESCs promotes a preimplantation epiblast-like gene signature, reduces UHRF1 levels and causes global DNA hypomethylation. Pramel7 is required for blastocyst formation and its forced expression locks ESCs in pluripotency. Pramel7/UHRF1 expression is mutually exclusive in ICMs whereas Pramel7-knockout embryos express high levels of UHRF1. Our data reveal an as-yet-unappreciated dynamic nature of DNA methylation through proteasome pathways and offer insights that might help to improve ESC culture to reproduce in vitro the in vivo ground-state pluripotency.",
     "claims": [
       {
@@ -699,7 +699,7 @@
     ]
   },
   {
-    "pmid": "PMID_7",
+    "pmid": "7",
     "abstract": "The human tumour antigen PRAME (preferentially expressed antigen in melanoma) is frequently overexpressed during oncogenesis, and high PRAME levels are associated with poor clinical outcome in a variety of cancers. However, the molecular pathways in which PRAME is implicated are not well understood. We recently characterized PRAME as a BC-box subunit of a Cullin2-based E3 ubiquitin ligase. In this study, we mined the PRAME interactome to a deeper level and identified specific interactions with OSGEP and LAGE3, which are human orthologues of the ancient EKC/KEOPS complex. By characterizing biochemically the human EKC complex and its interactions with PRAME, we show that PRAME recruits a Cul2 ubiquitin ligase to EKC. Moreover, EKC subunits associate with PRAME target sites on chromatin. Our data reveal a novel link between the oncoprotein PRAME and the conserved EKC complex and support a role for both complexes in the same pathways.",
     "claims": [
       {
@@ -883,7 +883,7 @@
     ]
   },
   {
-    "pmid": "PMID_8",
+    "pmid": "8",
     "abstract": "Retinoic acid (RA) induces proliferation arrest, differentiation, and apoptosis, and defects in retinoic acid receptor (RAR) signaling have been implicated in cancer. The human tumor antigen PRAME is overexpressed in a variety of cancers, but its function has remained unclear. We identify here PRAME as a dominant repressor of RAR signaling. PRAME binds to RAR in the presence of RA, preventing ligand-induced receptor activation and target gene transcription through recruitment of Polycomb proteins. PRAME is present at RAR target promoters and inhibits RA-induced differentiation, growth arrest, and apoptosis. Conversely, knockdown of PRAME expression by RNA interference in RA-resistant human melanoma restores RAR signaling and reinstates sensitivity to the antiproliferative effects of RA in vitro and in vivo. Our data suggest that overexpression of PRAME frequently observed in human cancers confers growth or survival advantages by antagonizing RAR signaling.",
     "claims": [
       {
@@ -1131,7 +1131,7 @@
     ]
   },
   {
-    "pmid": "PMID_9",
+    "pmid": "9",
     "abstract": "Type II germ cell cancers (GCC) are divided into seminomas, which are highly similar to primordial germ cells and embryonal carcinomas (EC), often described as malignant counterparts to embryonic stem cells.Previously, we demonstrated that the development of GCCs is a highly plastic process and strongly influenced by the microenvironment. While orthotopic transplantation into the testis promotes seminomatous growth of the seminoma-like cell line TCam-2, ectopic xenotransplantation into the flank initiates reprogramming into an EC-like fate.During this reprogramming, BMP signaling is inhibited, leading to induction of NODAL signaling, upregulation of pluripotency factors and downregulation of seminoma markers, like SOX17. The pluripotency factor and EC-marker SOX2 is strongly induced.Here, we adressed the molecular role of SOX2 in this reprogramming. Using CRISPR/Cas9-mediated genome-editing, we established SOX2-deficient TCam-2 cells. Xenografting of SOX2-deficient cells into the flank of nude mice resulted in maintenance of a seminoma-like fate, indicated by the histology and expression of OCT3/4, SOX17, TFAP2C, PRDM1 and PRAME. In SOX2-deficient cells, BMP signaling is inhibited, but NODAL signaling is not activated. Thus, SOX2 appears to be downstream of BMP signaling but upstream of NODAL activation. So, SOX2 is an essential factor in acquiring an EC-like cell fate from seminomas.A small population of differentiated cells was identified resembling a mixed non-seminoma. Analyses of these cells revealed downregulation of the pluripotency and seminoma markers OCT3/4, SOX17, PRDM1 and TFAP2C. In contrast, the pioneer factor FOXA2 and its target genes were upregulated, suggesting that FOXA2 might play an important role in induction of non-seminomatous differentiation.",
     "claims": [
       {
@@ -1248,7 +1248,7 @@
     ]
   },
   {
-    "pmid": "PMID_10",
+    "pmid": "10",
     "abstract": "Background: Cancer/testis-antigens (CTAs) are specifically expressed in human malignancies and testis tissue, but their molecular functions are poorly understood. CTAs serve as regulators of gene expression, cell cycle and spermatogenesis, as well as targets for immune-based therapies. The CTA PRAME is expressed in various cancers, antagonises retinoic acid signalling and is regulated by DNA methylation and histone acetylation. Methods: We analysed the molecular function of the CTA PRAME in primordial germ cells (PGC) and testicular germ cell cancers (GCC). GCCs arise from a common precursor lesion termed germ cell neoplasia in situ (GCNIS), which itself is thought to originate from a defective PGC. GCNIS cells eventually develop into unipotent seminomas or totipotent embryonal carcinomas (ECs), which are capable of differentiation into teratomas, yolk-sac tumours and choriocarcinomas. Results: PRAME is, like the master regulator of PGCs SOX17 expressed in human PGCs, GCNIS and seminomas but absent in ECs. shRNA-mediated knockdown of PRAME in seminomatous TCam-2 cells left SOX17 levels unchanged, but resulted in downregulation of pluripotency- and PGC-related genes (LIN28, PRDM14, ZSCAN10), whereas somatic and germ cell differentiation markers were upregulated. So, PRAME seems to act downstream of SOX17 by mediating the regulation of the germ cell differentiation and pluripotency programme. Endoderm differentiation is triggered in somatic cells by SOX17, suggesting that in PGCs, PRAME represses this programme and modulates SOX17 to function as a PGC-master regulator. Surprisingly, knockdown of PRAME in TCam-2 cells did not render the cells sensitive towards retinoic acid, despite the fact that PRAME has been described to antagonise retinoic acid signalling. Finally, we demonstrate that in non-seminomas PRAME expression is silenced by DNA methylation, which can be activated by formation of euchromatin via histone-deacetylase-inhibitors. Conclusions: We identified the CTA PRAME as a downstream factor of SOX17 and LIN28 in regulating pluripotency and suppressing somatic/germ cell differentiation in PGC, GCNIS and seminomas.",
     "claims": [
       {
@@ -1367,7 +1367,7 @@
     ]
   },
   {
-    "pmid": "PMID_11",
+    "pmid": "11",
     "abstract": "Retinoids are ubiquitous signaling molecules that influence nearly every cell type, exert profound effects on development, and complement cancer chemotherapeutic regimens. All-trans retinoic acid (RA) and other active retinoids are generated from vitamin A (retinol), but key aspects of the signaling pathways required to produce active retinoids remain unclear. Retinoids generated by one cell type can affect nearby cells, so retinoids also function in intercellular communication. RA induces differentiation primarily by binding to RARs, transcription factors that associate with RXRs and bind RAREs in the nucleus. Binding of RA: (1) initiates changes in interactions of RAR/RXRs with co-repressor and co-activator proteins, activating transcription of primary target genes; (2) alters interactions with proteins that induce epigenetic changes; (3) induces transcription of genes encoding transcription factors and signaling proteins that further modify gene expression (e.g., FOX03A, Hoxa1, Sox9, TRAIL, UBE2D3); and (4) results in alterations in estrogen receptor α signaling. Proteins that bind at or near RAREs include Sin3a, N-CoR1, PRAME, Trim24, NRIP1, Ajuba, Zfp423, and MN1/TEL. Interactions among retinoids, RARs/RXRs, and these proteins explain in part the powerful effects of retinoids on stem cell differentiation. Studies of this retinol signaling cascade enhance our ability to understand and regulate stem cell differentiation for therapeutic and scientific purposes. In cancer chemotherapeutic regimens retinoids can promote tumor cell differentiation and/or induce proteins that sensitize tumors to drug combinations. Mechanistic studies of retinoid signaling continue to suggest novel drug targets and will improve therapeutic strategies for cancer and other diseases, such as immune-mediated inflammatory diseases.",
     "claims": [
       {
@@ -1486,7 +1486,7 @@
     ]
   },
   {
-    "pmid": "PMID_12",
+    "pmid": "12",
     "abstract": "Background: The physiological and phenotypic differences between human and chimpanzee are largely specified by our genomic differences. We have been particularly interested in recent duplications in the human genome as examples of relatively large-scale changes to our genome. We performed an in-depth evolutionary analysis of a region of chromosome 1, which is copy number polymorphic among humans, and that contains at least 32 PRAME (Preferentially expressed antigen of melanoma) genes and pseudogenes. PRAME-like genes are expressed in the testis and in a large number of tumours, and are thought to possess roles in spermatogenesis and oogenesis. Results: Using nucleotide substitution rate estimates for exons and introns, we show that two large segmental duplications, of six and seven human PRAME genes respectively, occurred in the last 3 million years. These duplicated genes are thus hominin-specific, having arisen in our genome since the divergence from chimpanzee. This cluster of PRAME genes appears to have arisen initially from a translocation approximately 95-85 million years ago. We identified multiple sites within human or mouse PRAME sequences which exhibit strong evidence of positive selection. These form a pronounced cluster on one face of the predicted PRAME protein structure. Conclusion: We predict that PRAME genes evolved adaptively due to strong competition between rapidly-dividing cells during spermatogenesis and oogenesis. We suggest that as PRAME gene copy number is polymorphic among individuals, positive selection of PRAME alleles may still prevail within the human population.",
     "claims": [
       {
